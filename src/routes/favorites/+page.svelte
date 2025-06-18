@@ -5,8 +5,8 @@
 
 <h1 class="heading">Favorite Pokémon of each type</h1>
 
-<section class="mt-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
-	{#each types as type}
+<section class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+	{#each types as type (type.name)}
 		<TypeCards {type} />
 	{/each}
 </section>

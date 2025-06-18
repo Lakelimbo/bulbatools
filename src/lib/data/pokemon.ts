@@ -198,9 +198,24 @@ export const pokemon: Pokemon[] = [
 	{ ndex: 127, slug: 'pinsir', name: 'Pinsir', types: ['Bug'] },
 	{ ndex: 127, slug: 'pinsir-mega', name: 'Mega Pinsir', types: ['Bug', 'Flying'] },
 	{ ndex: 128, slug: 'tauros', name: 'Tauros', types: ['Normal'] },
-	{ ndex: 128, slug: 'tauros-paldea-combat', name: 'Paldean Tauros Combat Breed', types: ['Fighting'] },
-	{ ndex: 128, slug: 'tauros-paldea-blaze', name: 'Paldean Tauros Blaze Breed', types: ['Fighting', 'Fire'] },
-	{ ndex: 128, slug: 'tauros-paldea-aqua', name: 'Paldean Tauros Aqua Breed', types: ['Fighting', 'Water'] },
+	{
+		ndex: 128,
+		slug: 'tauros-paldea-combat',
+		name: 'Paldean Tauros Combat Breed',
+		types: ['Fighting']
+	},
+	{
+		ndex: 128,
+		slug: 'tauros-paldea-blaze',
+		name: 'Paldean Tauros Blaze Breed',
+		types: ['Fighting', 'Fire']
+	},
+	{
+		ndex: 128,
+		slug: 'tauros-paldea-aqua',
+		name: 'Paldean Tauros Aqua Breed',
+		types: ['Fighting', 'Water']
+	},
 	{ ndex: 129, slug: 'magikarp', name: 'Magikarp', types: ['Water'] },
 	{ ndex: 130, slug: 'gyarados', name: 'Gyarados', types: ['Water', 'Flying'] },
 	{ ndex: 130, slug: 'gyarados-mega', name: 'Mega Gyarados', types: ['Water', 'Dark'] },
