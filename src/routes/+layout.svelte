@@ -8,6 +8,10 @@
 	let { children } = $props();
 </script>
 
+<svelte:head>
+	<title>Bulbatools</title>
+</svelte:head>
+
 <Nav />
 <div class="container mx-auto flex-1 rounded-2xl bg-white px-8 py-4">
 	{@render children()}
